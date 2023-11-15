@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 2px solid black;
+    height: 100vh;
+    background-color: #2f3238;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    background-image: url("https://img.freepik.com/foto-gratis/pastizales-grandes-secos-cielo-despejado-sobre-ellos-perfectos-fondo_181624-31829.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699056000&semt=ais");
+    width: 700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: center;
+    padding: 100px;
+    position: relative;
+}
+
+.cajita {
+    border: 10px solid white;
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 30px;
+    visibility: hidden;
+}
+
+.caja:hover p { 
+    visibility: visible;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+.caja:hover .cajita {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}

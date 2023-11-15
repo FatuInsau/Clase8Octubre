@@ -1,0 +1,15 @@
+body {
+    display: flex;
+}
+
+div {
+    height: 150px;
+    flex-basis: 25%;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.especial {
+    flex-grow: 1;
+    background-color: red;
+}

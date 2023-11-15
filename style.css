@@ -1,0 +1,32 @@
+div {
+    background-color: skyblue;
+}
+
+h1 {
+    background-color: red;
+    font-size: 50px;
+}
+
+/* desde la medida que te doy hasta infinito */
+/* min-width */
+
+/* desde la medida que te doy hasta 0 */
+/* max-width */
+
+/* a partir de 500px en adelante */
+/* de 500px al infinito */
+@media (min-width:500px) and (max-width:1000px){
+    /* aca trabajamos como si fuera css normal */
+    h1 {
+        background-color: orange;
+        font-size: 80px;
+    }
+}
+
+
+/* de 1000px en adelante */
+@media (min-width:1000px) and (orientation: landscape){
+    body {
+        background-color: aquamarine;
+    }
+}
